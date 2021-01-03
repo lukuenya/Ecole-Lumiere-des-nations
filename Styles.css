@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+body{
+		 font-family: 'Langar', cursive;
+		 padding:0px;
+		 margin: 0px;
+}
+
+nav{
+    background-color: rgb(95, 139, 160);
+}
+nav li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+	text-shadow: 2px;
+	text-decoration: none;
+
+}
+nav li a{
+    color: red;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black ;
+}
+#search{
+    position: absolute;
+    right: 13px;
+    top: 13px;
+}
+.a ::after{
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width .3s;
+
+}
+
+.a :hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
